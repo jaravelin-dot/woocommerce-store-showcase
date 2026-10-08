@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/kontrola-cen-a-tajemstvi.sh\""
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Read(~/.ssh/**)"],
+    "ask": ["Bash(wp db *)", "Bash(mysql *)", "Bash(git push *)"]
+  }
+}

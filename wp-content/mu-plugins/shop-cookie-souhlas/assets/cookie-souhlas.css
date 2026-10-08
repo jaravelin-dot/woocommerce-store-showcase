@@ -1,0 +1,105 @@
+/* Cookie lišta. Barvy z palety šablony (var(--wp--preset--color--…)),
+   se záložní hodnotou, kdyby šablona paletu neměla. */
+
+.shop-cookie-lista {
+	position: fixed;
+	left: 16px;
+	right: 16px;
+	bottom: 16px;
+	z-index: 99990;
+	max-width: 920px;
+	margin: 0 auto;
+	padding: 20px 24px;
+	background: var(--wp--preset--color--base, #fff);
+	color: var(--wp--preset--color--contrast, #1b1f23);
+	border: 1px solid var(--wp--preset--color--linka, #dcdfe3);
+	border-radius: 6px;
+	box-shadow: 0 10px 30px rgba(17, 24, 39, .18);
+	font-size: 15px;
+	line-height: 1.45;
+}
+
+.shop-cookie-lista[hidden],
+.shop-cookie-znovu[hidden] { display: none; }
+
+.shop-cookie-lista__nadpis {
+	margin: 0 0 6px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.shop-cookie-lista__text {
+	margin: 0 0 14px;
+	color: var(--wp--preset--color--sediva, #4b5563);
+}
+
+.shop-cookie-lista__kategorie {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 24px;
+	margin: 0 0 16px;
+	padding: 12px 0;
+	border-top: 1px solid var(--wp--preset--color--linka, #dcdfe3);
+	border-bottom: 1px solid var(--wp--preset--color--linka, #dcdfe3);
+}
+
+.shop-cookie-lista__kategorie label {
+	display: flex;
+	gap: 8px;
+	align-items: flex-start;
+	max-width: 260px;
+	font-size: 14px;
+}
+
+.shop-cookie-lista__kategorie strong { display: block; }
+
+.shop-cookie-lista__kategorie input { accent-color: var(--wp--preset--color--akcent, #c2410c); }
+
+.shop-cookie-lista__tlacitka {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+/* Všechna tlačítka stejné výšky a písma — Odmítnout není schovaný odkaz. */
+.shop-cookie-lista__tlacitka button {
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1;
+	padding: 12px 20px;
+	border: 1px solid var(--wp--preset--color--contrast, #1b1f23);
+	border-radius: 4px;
+	background: var(--wp--preset--color--base, #fff);
+	color: var(--wp--preset--color--contrast, #1b1f23);
+	cursor: pointer;
+}
+
+.shop-cookie-lista__tlacitka button:hover,
+.shop-cookie-lista__tlacitka button:focus-visible {
+	background: var(--wp--preset--color--contrast, #1b1f23);
+	color: var(--wp--preset--color--base, #fff);
+}
+
+.shop-cookie-znovu {
+	position: fixed;
+	left: 12px;
+	bottom: 12px;
+	z-index: 99980;
+	padding: 6px 10px;
+	font-size: 12px;
+	background: var(--wp--preset--color--base, #fff);
+	color: var(--wp--preset--color--sediva, #4b5563);
+	border: 1px solid var(--wp--preset--color--linka, #dcdfe3);
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+/* Lišta je nejdřív sbalená: text + tlačítka, kategorie až po „Nastavení". */
+.shop-cookie-lista--sbalena .shop-cookie-lista__kategorie,
+.shop-cookie-lista--sbalena #shop-cookie-ulozit { display: none; }
+
+@media (max-width: 640px) {
+	.shop-cookie-lista { left: 8px; right: 8px; bottom: 8px; padding: 16px; }
+	.shop-cookie-lista__tlacitka button { flex: 1 1 calc(50% - 10px); }
+}

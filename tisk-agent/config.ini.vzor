@@ -1,0 +1,7 @@
+; Zkopíruj do %APPDATA%\shop-tisk\config.ini a doplň heslo.
+; Heslo je aplikační heslo uživatele „tisk-agent" z administrace WordPressu.
+; TENHLE SOUBOR S DOPLNĚNÝM HESLEM NIKDY NEPATŘÍ DO GITU.
+[web]
+url = https://obchod.example.cz
+uzivatel = tisk-agent
+heslo = sem-aplikacni-heslo

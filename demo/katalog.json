@@ -1,0 +1,2867 @@
+{
+ "kategorie": [
+  {
+   "slug": "obuv",
+   "nazev": "Obuv",
+   "rodic": "",
+   "popis": "Pracovní a bezpečnostní obuv. Na prodejně si ji vyzkoušíte, na webu vidíte, které velikosti máme skladem."
+  },
+  {
+   "slug": "bezpecnostni-obuv",
+   "nazev": "Bezpečnostní obuv",
+   "rodic": "obuv",
+   "popis": "Obuv s ochrannou špičkou ve třídách S1P až S3. Planžeta chrání proti propíchnutí."
+  },
+  {
+   "slug": "pracovni-obuv",
+   "nazev": "Pracovní obuv",
+   "rodic": "obuv",
+   "popis": "Obuv bez ochranné špičky (O1, O2) do kuchyně, zdravotnictví a na celý den na nohou."
+  },
+  {
+   "slug": "holinky",
+   "nazev": "Holínky",
+   "rodic": "obuv",
+   "popis": "Holínky do vody a bláta, třída S5 s ochrannou špičkou a planžetou."
+  },
+  {
+   "slug": "odevy",
+   "nazev": "Oděvy",
+   "rodic": "",
+   "popis": "Pracovní kalhoty, bundy, vesty, trička a mikiny na práci i do zimy."
+  },
+  {
+   "slug": "kalhoty",
+   "nazev": "Pracovní kalhoty",
+   "rodic": "odevy",
+   "popis": "Kalhoty do pasu, s laclem, kraťasy a zateplené kalhoty."
+  },
+  {
+   "slug": "bundy-a-vesty",
+   "nazev": "Bundy a vesty",
+   "rodic": "odevy",
+   "popis": "Softshellové a zimní bundy, zateplené a reflexní vesty."
+  },
+  {
+   "slug": "trika-a-mikiny",
+   "nazev": "Trička a mikiny",
+   "rodic": "odevy",
+   "popis": "Pracovní trička, reflexní trička a mikiny."
+  },
+  {
+   "slug": "rukavice",
+   "nazev": "Rukavice",
+   "rodic": "",
+   "popis": "Montážní, zimní a nitrilové rukavice ve velikostech 7 až 11."
+  }
+ ],
+ "atributy": {
+  "pa_velikost": "Velikost",
+  "pa_bezpecnostni_trida": "Třída ochrany",
+  "pa_pohlavi": "Pro koho",
+  "pa_barva": "Barva",
+  "pa_znacka": "Značka",
+  "pa_prostredi": "Prostředí",
+  "pa_material": "Materiál",
+  "pa_vlastnosti": "Vlastnosti"
+ },
+ "produkty": [
+  {
+   "nazev": "Bezpečnostní polobotka ARVETO S1P",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-001",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S1P. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>textil</td></tr><tr><th>Třída ochrany</th><td>S1P</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-01.png",
+   "prodeje": 195,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S1P"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "textil"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "37",
+     "cena": 1290,
+     "sku": "UK-001-37",
+     "ean": "2000001000014",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "38",
+     "cena": 1290,
+     "sku": "UK-001-38",
+     "ean": "2000001000021",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "39",
+     "cena": 1290,
+     "sku": "UK-001-39",
+     "ean": "2000001000038",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "40",
+     "cena": 1290,
+     "sku": "UK-001-40",
+     "ean": "2000001000045",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "41",
+     "cena": 1290,
+     "sku": "UK-001-41",
+     "ean": "2000001000052",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "42",
+     "cena": 1290,
+     "sku": "UK-001-42",
+     "ean": "2000001000069",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "43",
+     "cena": 1290,
+     "sku": "UK-001-43",
+     "ean": "2000001000076",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 1290,
+     "sku": "UK-001-44",
+     "ean": "2000001000083",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "45",
+     "cena": 1290,
+     "sku": "UK-001-45",
+     "ean": "2000001000090",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "46",
+     "cena": 1290,
+     "sku": "UK-001-46",
+     "ean": "2000001000106",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "47",
+     "cena": 1390,
+     "sku": "UK-001-47",
+     "ean": "2000001000113",
+     "stav": "instock",
+     "kusu": 3
+    }
+   ]
+  },
+  {
+   "nazev": "Bezpečnostní polobotka ARVETO S3",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-002",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S3.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže</td></tr><tr><th>Třída ochrany</th><td>S3</td></tr><tr><th>Prostředí</th><td>sklad a logistika, dílna</td></tr></table>",
+   "obrazek": "produkt-02.png",
+   "prodeje": 0,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S3"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "černá"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika",
+     "dílna"
+    ],
+    "pa_material": [
+     "kůže"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "37",
+     "cena": 1390,
+     "sku": "UK-002-37",
+     "ean": "2000002000013",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "38",
+     "cena": 1390,
+     "sku": "UK-002-38",
+     "ean": "2000002000020",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "39",
+     "cena": 1390,
+     "sku": "UK-002-39",
+     "ean": "2000002000037",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "40",
+     "cena": 1390,
+     "sku": "UK-002-40",
+     "ean": "2000002000044",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "41",
+     "cena": 1390,
+     "sku": "UK-002-41",
+     "ean": "2000002000051",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "42",
+     "cena": 1390,
+     "sku": "UK-002-42",
+     "ean": "2000002000068",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "43",
+     "cena": 1390,
+     "sku": "UK-002-43",
+     "ean": "2000002000075",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 1390,
+     "sku": "UK-002-44",
+     "ean": "2000002000082",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "45",
+     "cena": 1390,
+     "sku": "UK-002-45",
+     "ean": "2000002000099",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "46",
+     "cena": 1390,
+     "sku": "UK-002-46",
+     "ean": "2000002000105",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "47",
+     "cena": 1490,
+     "sku": "UK-002-47",
+     "ean": "2000002000112",
+     "stav": "instock",
+     "kusu": 7
+    }
+   ]
+  },
+  {
+   "nazev": "Kotníková obuv BREMOK S3",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-003",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S3. Vlastnosti: nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže</td></tr><tr><th>Třída ochrany</th><td>S3</td></tr><tr><th>Vlastnosti</th><td>nepromokavé</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-03.png",
+   "prodeje": 231,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S3"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "hnědá"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "kůže"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "39",
+     "cena": 1690,
+     "sku": "UK-003-39",
+     "ean": "2000003000012",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "40",
+     "cena": 1690,
+     "sku": "UK-003-40",
+     "ean": "2000003000029",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "41",
+     "cena": 1690,
+     "sku": "UK-003-41",
+     "ean": "2000003000036",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "42",
+     "cena": 1690,
+     "sku": "UK-003-42",
+     "ean": "2000003000043",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "43",
+     "cena": 1690,
+     "sku": "UK-003-43",
+     "ean": "2000003000050",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 1690,
+     "sku": "UK-003-44",
+     "ean": "2000003000067",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "45",
+     "cena": 1690,
+     "sku": "UK-003-45",
+     "ean": "2000003000074",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "46",
+     "cena": 1690,
+     "sku": "UK-003-46",
+     "ean": "2000003000081",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "47",
+     "cena": 1790,
+     "sku": "UK-003-47",
+     "ean": "2000003000098",
+     "stav": "instock",
+     "kusu": 2
+    }
+   ]
+  },
+  {
+   "nazev": "Kotníková obuv BREMOK S3 zimní",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-004",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S3. Vlastnosti: zateplené, nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže</td></tr><tr><th>Třída ochrany</th><td>S3</td></tr><tr><th>Vlastnosti</th><td>zateplené, nepromokavé</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-04.png",
+   "prodeje": 12,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S3"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "hnědá"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "kůže"
+    ],
+    "pa_vlastnosti": [
+     "zateplené",
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "39",
+     "cena": 1890,
+     "sku": "UK-004-39",
+     "ean": "2000004000011",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "40",
+     "cena": 1890,
+     "sku": "UK-004-40",
+     "ean": "2000004000028",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "41",
+     "cena": 1890,
+     "sku": "UK-004-41",
+     "ean": "2000004000035",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "42",
+     "cena": 1890,
+     "sku": "UK-004-42",
+     "ean": "2000004000042",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "43",
+     "cena": 1890,
+     "sku": "UK-004-43",
+     "ean": "2000004000059",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 1890,
+     "sku": "UK-004-44",
+     "ean": "2000004000066",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "45",
+     "cena": 1890,
+     "sku": "UK-004-45",
+     "ean": "2000004000073",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "46",
+     "cena": 1890,
+     "sku": "UK-004-46",
+     "ean": "2000004000080",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "47",
+     "cena": 1990,
+     "sku": "UK-004-47",
+     "ean": "2000004000097",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Kotníková obuv TELMARO S3 s membránou",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-005",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S3. Vlastnosti: nepromokavé, lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže a textil</td></tr><tr><th>Třída ochrany</th><td>S3</td></tr><tr><th>Vlastnosti</th><td>nepromokavé, lehké</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-05.png",
+   "prodeje": 66,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S3"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "kůže a textil"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé",
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "39",
+     "cena": 2190,
+     "sku": "UK-005-39",
+     "ean": "2000005000010",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "40",
+     "cena": 2190,
+     "sku": "UK-005-40",
+     "ean": "2000005000027",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "41",
+     "cena": 2190,
+     "sku": "UK-005-41",
+     "ean": "2000005000034",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "42",
+     "cena": 2190,
+     "sku": "UK-005-42",
+     "ean": "2000005000041",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "43",
+     "cena": 2190,
+     "sku": "UK-005-43",
+     "ean": "2000005000058",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 2190,
+     "sku": "UK-005-44",
+     "ean": "2000005000065",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "45",
+     "cena": 2190,
+     "sku": "UK-005-45",
+     "ean": "2000005000072",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "46",
+     "cena": 2190,
+     "sku": "UK-005-46",
+     "ean": "2000005000089",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "47",
+     "cena": 2290,
+     "sku": "UK-005-47",
+     "ean": "2000005000096",
+     "stav": "instock",
+     "kusu": 4
+    }
+   ]
+  },
+  {
+   "nazev": "Dámská polobotka LUVENA S1P",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-006",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S1P. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>textil</td></tr><tr><th>Třída ochrany</th><td>S1P</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-06.png",
+   "prodeje": 252,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S1P"
+    ],
+    "pa_pohlavi": [
+     "dámské"
+    ],
+    "pa_barva": [
+     "růžová"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "textil"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "36",
+     "cena": 1190,
+     "sku": "UK-006-36",
+     "ean": "2000006000019",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "37",
+     "cena": 1190,
+     "sku": "UK-006-37",
+     "ean": "2000006000026",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "38",
+     "cena": 1190,
+     "sku": "UK-006-38",
+     "ean": "2000006000033",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "39",
+     "cena": 1190,
+     "sku": "UK-006-39",
+     "ean": "2000006000040",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "40",
+     "cena": 1190,
+     "sku": "UK-006-40",
+     "ean": "2000006000057",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "41",
+     "cena": 1190,
+     "sku": "UK-006-41",
+     "ean": "2000006000064",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "42",
+     "cena": 1190,
+     "sku": "UK-006-42",
+     "ean": "2000006000071",
+     "stav": "instock",
+     "kusu": 7
+    }
+   ]
+  },
+  {
+   "nazev": "Bezpečnostní sandál VESMIR S1P",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-007",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S1P. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>mikrovlákno</td></tr><tr><th>Třída ochrany</th><td>S1P</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-07.png",
+   "prodeje": 75,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S1P"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "modrá"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "mikrovlákno"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "37",
+     "cena": 990,
+     "sku": "UK-007-37",
+     "ean": "2000007000018",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "38",
+     "cena": 990,
+     "sku": "UK-007-38",
+     "ean": "2000007000025",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "39",
+     "cena": 990,
+     "sku": "UK-007-39",
+     "ean": "2000007000032",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "40",
+     "cena": 990,
+     "sku": "UK-007-40",
+     "ean": "2000007000049",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "41",
+     "cena": 990,
+     "sku": "UK-007-41",
+     "ean": "2000007000056",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "42",
+     "cena": 990,
+     "sku": "UK-007-42",
+     "ean": "2000007000063",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "43",
+     "cena": 990,
+     "sku": "UK-007-43",
+     "ean": "2000007000070",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "44",
+     "cena": 990,
+     "sku": "UK-007-44",
+     "ean": "2000007000087",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "45",
+     "cena": 990,
+     "sku": "UK-007-45",
+     "ean": "2000007000094",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "46",
+     "cena": 990,
+     "sku": "UK-007-46",
+     "ean": "2000007000100",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "47",
+     "cena": 1090,
+     "sku": "UK-007-47",
+     "ean": "2000007000117",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Bezpečnostní polobotka KADENZO S2",
+   "kategorie": "bezpecnostni-obuv",
+   "sku": "UK-008",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S2.",
+   "popis": "<table><tr><th>Materiál</th><td>mikrovlákno</td></tr><tr><th>Třída ochrany</th><td>S2</td></tr><tr><th>Prostředí</th><td>gastro</td></tr></table>",
+   "obrazek": "produkt-08.png",
+   "prodeje": 45,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S2"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "bílá"
+    ],
+    "pa_prostredi": [
+     "gastro"
+    ],
+    "pa_material": [
+     "mikrovlákno"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "37",
+     "cena": 1090,
+     "sku": "UK-008-37",
+     "ean": "2000008000017",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "38",
+     "cena": 1090,
+     "sku": "UK-008-38",
+     "ean": "2000008000024",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "39",
+     "cena": 1090,
+     "sku": "UK-008-39",
+     "ean": "2000008000031",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "40",
+     "cena": 1090,
+     "sku": "UK-008-40",
+     "ean": "2000008000048",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "41",
+     "cena": 1090,
+     "sku": "UK-008-41",
+     "ean": "2000008000055",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "42",
+     "cena": 1090,
+     "sku": "UK-008-42",
+     "ean": "2000008000062",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "43",
+     "cena": 1090,
+     "sku": "UK-008-43",
+     "ean": "2000008000079",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 1090,
+     "sku": "UK-008-44",
+     "ean": "2000008000086",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "45",
+     "cena": 1090,
+     "sku": "UK-008-45",
+     "ean": "2000008000093",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "46",
+     "cena": 1090,
+     "sku": "UK-008-46",
+     "ean": "2000008000109",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "47",
+     "cena": 1190,
+     "sku": "UK-008-47",
+     "ean": "2000008000116",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Dámská pracovní obuv FENTARA O1",
+   "kategorie": "pracovni-obuv",
+   "sku": "UK-009",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany O1. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže</td></tr><tr><th>Třída ochrany</th><td>O1</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>gastro</td></tr></table>",
+   "obrazek": "produkt-09.png",
+   "prodeje": 180,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "O1"
+    ],
+    "pa_pohlavi": [
+     "dámské"
+    ],
+    "pa_barva": [
+     "bílá"
+    ],
+    "pa_prostredi": [
+     "gastro"
+    ],
+    "pa_material": [
+     "kůže"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "36",
+     "cena": 790,
+     "sku": "UK-009-36",
+     "ean": "2000009000016",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "37",
+     "cena": 790,
+     "sku": "UK-009-37",
+     "ean": "2000009000023",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "38",
+     "cena": 790,
+     "sku": "UK-009-38",
+     "ean": "2000009000030",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "39",
+     "cena": 790,
+     "sku": "UK-009-39",
+     "ean": "2000009000047",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "40",
+     "cena": 790,
+     "sku": "UK-009-40",
+     "ean": "2000009000054",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "41",
+     "cena": 790,
+     "sku": "UK-009-41",
+     "ean": "2000009000061",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "42",
+     "cena": 790,
+     "sku": "UK-009-42",
+     "ean": "2000009000078",
+     "stav": "instock",
+     "kusu": 1
+    }
+   ]
+  },
+  {
+   "nazev": "Pracovní pantofle PULVERO O1",
+   "kategorie": "pracovni-obuv",
+   "sku": "UK-010",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany O1. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže</td></tr><tr><th>Třída ochrany</th><td>O1</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>gastro</td></tr></table>",
+   "obrazek": "produkt-10.png",
+   "prodeje": 228,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "O1"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "bílá"
+    ],
+    "pa_prostredi": [
+     "gastro"
+    ],
+    "pa_material": [
+     "kůže"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "37",
+     "cena": 590,
+     "sku": "UK-010-37",
+     "ean": "2000010000012",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "38",
+     "cena": 590,
+     "sku": "UK-010-38",
+     "ean": "2000010000029",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "39",
+     "cena": 590,
+     "sku": "UK-010-39",
+     "ean": "2000010000036",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "40",
+     "cena": 590,
+     "sku": "UK-010-40",
+     "ean": "2000010000043",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "41",
+     "cena": 590,
+     "sku": "UK-010-41",
+     "ean": "2000010000050",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "42",
+     "cena": 590,
+     "sku": "UK-010-42",
+     "ean": "2000010000067",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "43",
+     "cena": 590,
+     "sku": "UK-010-43",
+     "ean": "2000010000074",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "44",
+     "cena": 590,
+     "sku": "UK-010-44",
+     "ean": "2000010000081",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "45",
+     "cena": 590,
+     "sku": "UK-010-45",
+     "ean": "2000010000098",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "46",
+     "cena": 590,
+     "sku": "UK-010-46",
+     "ean": "2000010000104",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "47",
+     "cena": 690,
+     "sku": "UK-010-47",
+     "ean": "2000010000111",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Pracovní kotníková obuv TRAVELO O2",
+   "kategorie": "pracovni-obuv",
+   "sku": "UK-011",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany O2.",
+   "popis": "<table><tr><th>Materiál</th><td>kůže</td></tr><tr><th>Třída ochrany</th><td>O2</td></tr><tr><th>Prostředí</th><td>dílna</td></tr></table>",
+   "obrazek": "produkt-11.png",
+   "prodeje": 93,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "O2"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_prostredi": [
+     "dílna"
+    ],
+    "pa_material": [
+     "kůže"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "39",
+     "cena": 1290,
+     "sku": "UK-011-39",
+     "ean": "2000011000011",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "40",
+     "cena": 1290,
+     "sku": "UK-011-40",
+     "ean": "2000011000028",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "41",
+     "cena": 1290,
+     "sku": "UK-011-41",
+     "ean": "2000011000035",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "42",
+     "cena": 1290,
+     "sku": "UK-011-42",
+     "ean": "2000011000042",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "43",
+     "cena": 1290,
+     "sku": "UK-011-43",
+     "ean": "2000011000059",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "44",
+     "cena": 1290,
+     "sku": "UK-011-44",
+     "ean": "2000011000066",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "45",
+     "cena": 1290,
+     "sku": "UK-011-45",
+     "ean": "2000011000073",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "46",
+     "cena": 1290,
+     "sku": "UK-011-46",
+     "ean": "2000011000080",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "47",
+     "cena": 1390,
+     "sku": "UK-011-47",
+     "ean": "2000011000097",
+     "stav": "instock",
+     "kusu": 5
+    }
+   ]
+  },
+  {
+   "nazev": "Holínky KALVORO S5",
+   "kategorie": "holinky",
+   "sku": "UK-012",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S5. Vlastnosti: nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>PVC</td></tr><tr><th>Třída ochrany</th><td>S5</td></tr><tr><th>Vlastnosti</th><td>nepromokavé</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-12.png",
+   "prodeje": 168,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S5"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "zelená"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "PVC"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "39",
+     "cena": 990,
+     "sku": "UK-012-39",
+     "ean": "2000012000010",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "40",
+     "cena": 990,
+     "sku": "UK-012-40",
+     "ean": "2000012000027",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "41",
+     "cena": 990,
+     "sku": "UK-012-41",
+     "ean": "2000012000034",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "42",
+     "cena": 990,
+     "sku": "UK-012-42",
+     "ean": "2000012000041",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "43",
+     "cena": 990,
+     "sku": "UK-012-43",
+     "ean": "2000012000058",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "44",
+     "cena": 990,
+     "sku": "UK-012-44",
+     "ean": "2000012000065",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "45",
+     "cena": 990,
+     "sku": "UK-012-45",
+     "ean": "2000012000072",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "46",
+     "cena": 990,
+     "sku": "UK-012-46",
+     "ean": "2000012000089",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "47",
+     "cena": 1090,
+     "sku": "UK-012-47",
+     "ean": "2000012000096",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Holínky KALVORO S5 zimní",
+   "kategorie": "holinky",
+   "sku": "UK-013",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S5. Vlastnosti: nepromokavé, zateplené.",
+   "popis": "<table><tr><th>Materiál</th><td>PVC</td></tr><tr><th>Třída ochrany</th><td>S5</td></tr><tr><th>Vlastnosti</th><td>nepromokavé, zateplené</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-13.png",
+   "prodeje": 174,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S5"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "černá"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "PVC"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé",
+     "zateplené"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "39",
+     "cena": 1190,
+     "sku": "UK-013-39",
+     "ean": "2000013000019",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "40",
+     "cena": 1190,
+     "sku": "UK-013-40",
+     "ean": "2000013000026",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "41",
+     "cena": 1190,
+     "sku": "UK-013-41",
+     "ean": "2000013000033",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "42",
+     "cena": 1190,
+     "sku": "UK-013-42",
+     "ean": "2000013000040",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "43",
+     "cena": 1190,
+     "sku": "UK-013-43",
+     "ean": "2000013000057",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "44",
+     "cena": 1190,
+     "sku": "UK-013-44",
+     "ean": "2000013000064",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "45",
+     "cena": 1190,
+     "sku": "UK-013-45",
+     "ean": "2000013000071",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "46",
+     "cena": 1190,
+     "sku": "UK-013-46",
+     "ean": "2000013000088",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "47",
+     "cena": 1290,
+     "sku": "UK-013-47",
+     "ean": "2000013000095",
+     "stav": "instock",
+     "kusu": 6
+    }
+   ]
+  },
+  {
+   "nazev": "Dámské holínky KALVORO S5",
+   "kategorie": "holinky",
+   "sku": "UK-014",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu, třída ochrany S5. Vlastnosti: nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>PVC</td></tr><tr><th>Třída ochrany</th><td>S5</td></tr><tr><th>Vlastnosti</th><td>nepromokavé</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-14.png",
+   "prodeje": 33,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Footwear"
+    ],
+    "pa_bezpecnostni_trida": [
+     "S5"
+    ],
+    "pa_pohlavi": [
+     "dámské"
+    ],
+    "pa_barva": [
+     "vínová"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "PVC"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "36",
+     "cena": 990,
+     "sku": "UK-014-36",
+     "ean": "2000014000018",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "37",
+     "cena": 990,
+     "sku": "UK-014-37",
+     "ean": "2000014000025",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "38",
+     "cena": 990,
+     "sku": "UK-014-38",
+     "ean": "2000014000032",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "39",
+     "cena": 990,
+     "sku": "UK-014-39",
+     "ean": "2000014000049",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "40",
+     "cena": 990,
+     "sku": "UK-014-40",
+     "ean": "2000014000056",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "41",
+     "cena": 990,
+     "sku": "UK-014-41",
+     "ean": "2000014000063",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "42",
+     "cena": 990,
+     "sku": "UK-014-42",
+     "ean": "2000014000070",
+     "stav": "instock",
+     "kusu": 7
+    }
+   ]
+  },
+  {
+   "nazev": "Pracovní kalhoty do pasu RENDALO",
+   "kategorie": "kalhoty",
+   "sku": "UK-015",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna a polyester</td></tr><tr><th>Prostředí</th><td>stavba, dílna</td></tr></table>",
+   "obrazek": "produkt-15.png",
+   "prodeje": 237,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "modrá"
+    ],
+    "pa_prostredi": [
+     "stavba",
+     "dílna"
+    ],
+    "pa_material": [
+     "bavlna a polyester"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 890,
+     "sku": "UK-015-S",
+     "ean": "2000015000017",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "M",
+     "cena": 890,
+     "sku": "UK-015-M",
+     "ean": "2000015000024",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "L",
+     "cena": 890,
+     "sku": "UK-015-L",
+     "ean": "2000015000031",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "XL",
+     "cena": 890,
+     "sku": "UK-015-XL",
+     "ean": "2000015000048",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "2XL",
+     "cena": 890,
+     "sku": "UK-015-2XL",
+     "ean": "2000015000055",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "3XL",
+     "cena": 990,
+     "sku": "UK-015-3XL",
+     "ean": "2000015000062",
+     "stav": "instock",
+     "kusu": 7
+    }
+   ]
+  },
+  {
+   "nazev": "Pracovní kalhoty s laclem RENDALO",
+   "kategorie": "kalhoty",
+   "sku": "UK-016",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna a polyester</td></tr><tr><th>Prostředí</th><td>stavba, dílna</td></tr></table>",
+   "obrazek": "produkt-16.png",
+   "prodeje": 69,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "modrá"
+    ],
+    "pa_prostredi": [
+     "stavba",
+     "dílna"
+    ],
+    "pa_material": [
+     "bavlna a polyester"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 990,
+     "sku": "UK-016-S",
+     "ean": "2000016000016",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "M",
+     "cena": 990,
+     "sku": "UK-016-M",
+     "ean": "2000016000023",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "L",
+     "cena": 990,
+     "sku": "UK-016-L",
+     "ean": "2000016000030",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "XL",
+     "cena": 990,
+     "sku": "UK-016-XL",
+     "ean": "2000016000047",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "2XL",
+     "cena": 990,
+     "sku": "UK-016-2XL",
+     "ean": "2000016000054",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "3XL",
+     "cena": 1090,
+     "sku": "UK-016-3XL",
+     "ean": "2000016000061",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Zateplené pracovní kalhoty RENDALO zimní",
+   "kategorie": "kalhoty",
+   "sku": "UK-017",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: zateplené.",
+   "popis": "<table><tr><th>Materiál</th><td>polyester</td></tr><tr><th>Vlastnosti</th><td>zateplené</td></tr><tr><th>Prostředí</th><td>stavba, sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-17.png",
+   "prodeje": 36,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_prostredi": [
+     "stavba",
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "polyester"
+    ],
+    "pa_vlastnosti": [
+     "zateplené"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 1290,
+     "sku": "UK-017-S",
+     "ean": "2000017000015",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "M",
+     "cena": 1290,
+     "sku": "UK-017-M",
+     "ean": "2000017000022",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "L",
+     "cena": 1290,
+     "sku": "UK-017-L",
+     "ean": "2000017000039",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "XL",
+     "cena": 1290,
+     "sku": "UK-017-XL",
+     "ean": "2000017000046",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "2XL",
+     "cena": 1290,
+     "sku": "UK-017-2XL",
+     "ean": "2000017000053",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "3XL",
+     "cena": 1390,
+     "sku": "UK-017-3XL",
+     "ean": "2000017000060",
+     "stav": "outofstock",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Dámské pracovní kalhoty RENDALO",
+   "kategorie": "kalhoty",
+   "sku": "UK-018",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna a polyester</td></tr><tr><th>Prostředí</th><td>dílna</td></tr></table>",
+   "obrazek": "produkt-18.png",
+   "prodeje": 198,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "dámské"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_prostredi": [
+     "dílna"
+    ],
+    "pa_material": [
+     "bavlna a polyester"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "XS",
+     "cena": 890,
+     "sku": "UK-018-XS",
+     "ean": "2000018000014",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "S",
+     "cena": 890,
+     "sku": "UK-018-S",
+     "ean": "2000018000021",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "M",
+     "cena": 890,
+     "sku": "UK-018-M",
+     "ean": "2000018000038",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "L",
+     "cena": 890,
+     "sku": "UK-018-L",
+     "ean": "2000018000045",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "XL",
+     "cena": 890,
+     "sku": "UK-018-XL",
+     "ean": "2000018000052",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Pracovní kraťasy RENDALO",
+   "kategorie": "kalhoty",
+   "sku": "UK-019",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-19.png",
+   "prodeje": 252,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "modrá"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "bavlna"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 590,
+     "sku": "UK-019-S",
+     "ean": "2000019000013",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "M",
+     "cena": 590,
+     "sku": "UK-019-M",
+     "ean": "2000019000020",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "L",
+     "cena": 590,
+     "sku": "UK-019-L",
+     "ean": "2000019000037",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "XL",
+     "cena": 590,
+     "sku": "UK-019-XL",
+     "ean": "2000019000044",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "2XL",
+     "cena": 590,
+     "sku": "UK-019-2XL",
+     "ean": "2000019000051",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "3XL",
+     "cena": 690,
+     "sku": "UK-019-3XL",
+     "ean": "2000019000068",
+     "stav": "outofstock",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Softshellová bunda VIKSO",
+   "kategorie": "bundy-a-vesty",
+   "sku": "UK-020",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>softshell</td></tr><tr><th>Vlastnosti</th><td>nepromokavé</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-20.png",
+   "prodeje": 171,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "černá"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "softshell"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 1490,
+     "sku": "UK-020-S",
+     "ean": "2000020000019",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "M",
+     "cena": 1490,
+     "sku": "UK-020-M",
+     "ean": "2000020000026",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "L",
+     "cena": 1490,
+     "sku": "UK-020-L",
+     "ean": "2000020000033",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "XL",
+     "cena": 1490,
+     "sku": "UK-020-XL",
+     "ean": "2000020000040",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "2XL",
+     "cena": 1490,
+     "sku": "UK-020-2XL",
+     "ean": "2000020000057",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "3XL",
+     "cena": 1590,
+     "sku": "UK-020-3XL",
+     "ean": "2000020000064",
+     "stav": "instock",
+     "kusu": 4
+    }
+   ]
+  },
+  {
+   "nazev": "Dámská softshellová bunda VIKSO",
+   "kategorie": "bundy-a-vesty",
+   "sku": "UK-021",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>softshell</td></tr><tr><th>Vlastnosti</th><td>nepromokavé</td></tr><tr><th>Prostředí</th><td>sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-21.png",
+   "prodeje": 234,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "dámské"
+    ],
+    "pa_barva": [
+     "vínová"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "softshell"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "XS",
+     "cena": 1490,
+     "sku": "UK-021-XS",
+     "ean": "2000021000018",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "S",
+     "cena": 1490,
+     "sku": "UK-021-S",
+     "ean": "2000021000025",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "M",
+     "cena": 1490,
+     "sku": "UK-021-M",
+     "ean": "2000021000032",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "L",
+     "cena": 1490,
+     "sku": "UK-021-L",
+     "ean": "2000021000049",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "XL",
+     "cena": 1490,
+     "sku": "UK-021-XL",
+     "ean": "2000021000056",
+     "stav": "instock",
+     "kusu": 7
+    }
+   ]
+  },
+  {
+   "nazev": "Zimní bunda NORDAVO",
+   "kategorie": "bundy-a-vesty",
+   "sku": "UK-022",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: zateplené, nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>polyester</td></tr><tr><th>Vlastnosti</th><td>zateplené, nepromokavé</td></tr><tr><th>Prostředí</th><td>sklad a logistika, stavba</td></tr></table>",
+   "obrazek": "produkt-22.png",
+   "prodeje": 153,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "černá"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika",
+     "stavba"
+    ],
+    "pa_material": [
+     "polyester"
+    ],
+    "pa_vlastnosti": [
+     "zateplené",
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 2290,
+     "sku": "UK-022-S",
+     "ean": "2000022000017",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "M",
+     "cena": 2290,
+     "sku": "UK-022-M",
+     "ean": "2000022000024",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "L",
+     "cena": 2290,
+     "sku": "UK-022-L",
+     "ean": "2000022000031",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "XL",
+     "cena": 2290,
+     "sku": "UK-022-XL",
+     "ean": "2000022000048",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "2XL",
+     "cena": 2290,
+     "sku": "UK-022-2XL",
+     "ean": "2000022000055",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "3XL",
+     "cena": 2390,
+     "sku": "UK-022-3XL",
+     "ean": "2000022000062",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Zateplená vesta NORDAVO",
+   "kategorie": "bundy-a-vesty",
+   "sku": "UK-023",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: zateplené.",
+   "popis": "<table><tr><th>Materiál</th><td>polyester</td></tr><tr><th>Vlastnosti</th><td>zateplené</td></tr><tr><th>Prostředí</th><td>sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-23.png",
+   "prodeje": 237,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_prostredi": [
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "polyester"
+    ],
+    "pa_vlastnosti": [
+     "zateplené"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 1190,
+     "sku": "UK-023-S",
+     "ean": "2000023000016",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "M",
+     "cena": 1190,
+     "sku": "UK-023-M",
+     "ean": "2000023000023",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "L",
+     "cena": 1190,
+     "sku": "UK-023-L",
+     "ean": "2000023000030",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "XL",
+     "cena": 1190,
+     "sku": "UK-023-XL",
+     "ean": "2000023000047",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "2XL",
+     "cena": 1190,
+     "sku": "UK-023-2XL",
+     "ean": "2000023000054",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "3XL",
+     "cena": 1290,
+     "sku": "UK-023-3XL",
+     "ean": "2000023000061",
+     "stav": "instock",
+     "kusu": 4
+    }
+   ]
+  },
+  {
+   "nazev": "Reflexní vesta LUXETO",
+   "kategorie": "bundy-a-vesty",
+   "sku": "UK-024",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: reflexní, lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>polyester</td></tr><tr><th>Vlastnosti</th><td>reflexní, lehké</td></tr><tr><th>Prostředí</th><td>stavba, sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-24.png",
+   "prodeje": 12,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "žlutá"
+    ],
+    "pa_prostredi": [
+     "stavba",
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "polyester"
+    ],
+    "pa_vlastnosti": [
+     "reflexní",
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 190,
+     "sku": "UK-024-S",
+     "ean": "2000024000015",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "M",
+     "cena": 190,
+     "sku": "UK-024-M",
+     "ean": "2000024000022",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "L",
+     "cena": 190,
+     "sku": "UK-024-L",
+     "ean": "2000024000039",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "XL",
+     "cena": 190,
+     "sku": "UK-024-XL",
+     "ean": "2000024000046",
+     "stav": "outofstock",
+     "kusu": 0
+    },
+    {
+     "velikost": "2XL",
+     "cena": 190,
+     "sku": "UK-024-2XL",
+     "ean": "2000024000053",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "3XL",
+     "cena": 290,
+     "sku": "UK-024-3XL",
+     "ean": "2000024000060",
+     "stav": "instock",
+     "kusu": 1
+    }
+   ]
+  },
+  {
+   "nazev": "Pracovní tričko BASITO",
+   "kategorie": "trika-a-mikiny",
+   "sku": "UK-025",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>univerzální</td></tr></table>",
+   "obrazek": "produkt-25.png",
+   "prodeje": 165,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "pánské"
+    ],
+    "pa_barva": [
+     "šedá"
+    ],
+    "pa_material": [
+     "bavlna"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 249,
+     "sku": "UK-025-S",
+     "ean": "2000025000014",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "M",
+     "cena": 249,
+     "sku": "UK-025-M",
+     "ean": "2000025000021",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "L",
+     "cena": 249,
+     "sku": "UK-025-L",
+     "ean": "2000025000038",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "XL",
+     "cena": 249,
+     "sku": "UK-025-XL",
+     "ean": "2000025000045",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "2XL",
+     "cena": 249,
+     "sku": "UK-025-2XL",
+     "ean": "2000025000052",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "3XL",
+     "cena": 349,
+     "sku": "UK-025-3XL",
+     "ean": "2000025000069",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Dámské pracovní tričko BASITO",
+   "kategorie": "trika-a-mikiny",
+   "sku": "UK-026",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>univerzální</td></tr></table>",
+   "obrazek": "produkt-26.png",
+   "prodeje": 279,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "dámské"
+    ],
+    "pa_barva": [
+     "oranžová"
+    ],
+    "pa_material": [
+     "bavlna"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "XS",
+     "cena": 249,
+     "sku": "UK-026-XS",
+     "ean": "2000026000013",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "S",
+     "cena": 249,
+     "sku": "UK-026-S",
+     "ean": "2000026000020",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "M",
+     "cena": 249,
+     "sku": "UK-026-M",
+     "ean": "2000026000037",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "L",
+     "cena": 249,
+     "sku": "UK-026-L",
+     "ean": "2000026000044",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "XL",
+     "cena": 249,
+     "sku": "UK-026-XL",
+     "ean": "2000026000051",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Reflexní tričko LUXETO",
+   "kategorie": "trika-a-mikiny",
+   "sku": "UK-027",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: reflexní.",
+   "popis": "<table><tr><th>Materiál</th><td>polyester</td></tr><tr><th>Vlastnosti</th><td>reflexní</td></tr><tr><th>Prostředí</th><td>stavba</td></tr></table>",
+   "obrazek": "produkt-27.png",
+   "prodeje": 48,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "oranžová"
+    ],
+    "pa_prostredi": [
+     "stavba"
+    ],
+    "pa_material": [
+     "polyester"
+    ],
+    "pa_vlastnosti": [
+     "reflexní"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 349,
+     "sku": "UK-027-S",
+     "ean": "2000027000012",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "M",
+     "cena": 349,
+     "sku": "UK-027-M",
+     "ean": "2000027000029",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "L",
+     "cena": 349,
+     "sku": "UK-027-L",
+     "ean": "2000027000036",
+     "stav": "instock",
+     "kusu": 5
+    },
+    {
+     "velikost": "XL",
+     "cena": 349,
+     "sku": "UK-027-XL",
+     "ean": "2000027000043",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "2XL",
+     "cena": 349,
+     "sku": "UK-027-2XL",
+     "ean": "2000027000050",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "3XL",
+     "cena": 449,
+     "sku": "UK-027-3XL",
+     "ean": "2000027000067",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Mikina s kapucí KORDINO",
+   "kategorie": "trika-a-mikiny",
+   "sku": "UK-028",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: zateplené.",
+   "popis": "<table><tr><th>Materiál</th><td>bavlna a polyester</td></tr><tr><th>Vlastnosti</th><td>zateplené</td></tr><tr><th>Prostředí</th><td>univerzální</td></tr></table>",
+   "obrazek": "produkt-28.png",
+   "prodeje": 3,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Wear"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "černá"
+    ],
+    "pa_material": [
+     "bavlna a polyester"
+    ],
+    "pa_vlastnosti": [
+     "zateplené"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "S",
+     "cena": 790,
+     "sku": "UK-028-S",
+     "ean": "2000028000011",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "M",
+     "cena": 790,
+     "sku": "UK-028-M",
+     "ean": "2000028000028",
+     "stav": "instock",
+     "kusu": 1
+    },
+    {
+     "velikost": "L",
+     "cena": 790,
+     "sku": "UK-028-L",
+     "ean": "2000028000035",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "XL",
+     "cena": 790,
+     "sku": "UK-028-XL",
+     "ean": "2000028000042",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "2XL",
+     "cena": 790,
+     "sku": "UK-028-2XL",
+     "ean": "2000028000059",
+     "stav": "instock",
+     "kusu": 7
+    },
+    {
+     "velikost": "3XL",
+     "cena": 890,
+     "sku": "UK-028-3XL",
+     "ean": "2000028000066",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Montážní rukavice GRIPANO",
+   "kategorie": "rukavice",
+   "sku": "UK-029",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: lehké.",
+   "popis": "<table><tr><th>Materiál</th><td>nylon a nitril</td></tr><tr><th>Vlastnosti</th><td>lehké</td></tr><tr><th>Prostředí</th><td>dílna, sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-29.png",
+   "prodeje": 15,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Gloves"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "modrá"
+    ],
+    "pa_prostredi": [
+     "dílna",
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "nylon a nitril"
+    ],
+    "pa_vlastnosti": [
+     "lehké"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "7",
+     "cena": 79,
+     "sku": "UK-029-7",
+     "ean": "2000029000010",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "8",
+     "cena": 79,
+     "sku": "UK-029-8",
+     "ean": "2000029000027",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "9",
+     "cena": 79,
+     "sku": "UK-029-9",
+     "ean": "2000029000034",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "10",
+     "cena": 79,
+     "sku": "UK-029-10",
+     "ean": "2000029000041",
+     "stav": "onbackorder",
+     "kusu": 0
+    },
+    {
+     "velikost": "11",
+     "cena": 79,
+     "sku": "UK-029-11",
+     "ean": "2000029000058",
+     "stav": "onbackorder",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Zimní rukavice GRIPANO zimní",
+   "kategorie": "rukavice",
+   "sku": "UK-030",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: zateplené.",
+   "popis": "<table><tr><th>Materiál</th><td>akryl a latex</td></tr><tr><th>Vlastnosti</th><td>zateplené</td></tr><tr><th>Prostředí</th><td>stavba, sklad a logistika</td></tr></table>",
+   "obrazek": "produkt-30.png",
+   "prodeje": 285,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Gloves"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "černá"
+    ],
+    "pa_prostredi": [
+     "stavba",
+     "sklad a logistika"
+    ],
+    "pa_material": [
+     "akryl a latex"
+    ],
+    "pa_vlastnosti": [
+     "zateplené"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "7",
+     "cena": 149,
+     "sku": "UK-030-7",
+     "ean": "2000030000016",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "8",
+     "cena": 149,
+     "sku": "UK-030-8",
+     "ean": "2000030000023",
+     "stav": "instock",
+     "kusu": 3
+    },
+    {
+     "velikost": "9",
+     "cena": 149,
+     "sku": "UK-030-9",
+     "ean": "2000030000030",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "10",
+     "cena": 149,
+     "sku": "UK-030-10",
+     "ean": "2000030000047",
+     "stav": "instock",
+     "kusu": 4
+    },
+    {
+     "velikost": "11",
+     "cena": 149,
+     "sku": "UK-030-11",
+     "ean": "2000030000054",
+     "stav": "outofstock",
+     "kusu": 0
+    }
+   ]
+  },
+  {
+   "nazev": "Nitrilové rukavice OLEXA",
+   "kategorie": "rukavice",
+   "sku": "UK-031",
+   "kratky_popis": "Vymyšlený model pro ukázku e-shopu. Vlastnosti: nepromokavé.",
+   "popis": "<table><tr><th>Materiál</th><td>nitril</td></tr><tr><th>Vlastnosti</th><td>nepromokavé</td></tr><tr><th>Prostředí</th><td>dílna</td></tr></table>",
+   "obrazek": "produkt-31.png",
+   "prodeje": 183,
+   "atributy": {
+    "pa_znacka": [
+     "Demo Gloves"
+    ],
+    "pa_pohlavi": [
+     "unisex"
+    ],
+    "pa_barva": [
+     "zelená"
+    ],
+    "pa_prostredi": [
+     "dílna"
+    ],
+    "pa_material": [
+     "nitril"
+    ],
+    "pa_vlastnosti": [
+     "nepromokavé"
+    ]
+   },
+   "varianty": [
+    {
+     "velikost": "7",
+     "cena": 59,
+     "sku": "UK-031-7",
+     "ean": "2000031000015",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "8",
+     "cena": 59,
+     "sku": "UK-031-8",
+     "ean": "2000031000022",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "9",
+     "cena": 59,
+     "sku": "UK-031-9",
+     "ean": "2000031000039",
+     "stav": "instock",
+     "kusu": 6
+    },
+    {
+     "velikost": "10",
+     "cena": 59,
+     "sku": "UK-031-10",
+     "ean": "2000031000046",
+     "stav": "instock",
+     "kusu": 2
+    },
+    {
+     "velikost": "11",
+     "cena": 59,
+     "sku": "UK-031-11",
+     "ean": "2000031000053",
+     "stav": "instock",
+     "kusu": 7
+    }
+   ]
+  }
+ ]
+}

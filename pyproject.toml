@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tisk-agent/tests", "tools/bezpecnostni-hook", "demo"]
+pythonpath = ["tisk-agent", "demo"]
+python_files = ["test_*.py"]

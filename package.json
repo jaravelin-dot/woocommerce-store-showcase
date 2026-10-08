@@ -1,0 +1,16 @@
+{
+  "name": "woocommerce-store-showcase",
+  "private": true,
+  "description": "Ukázka e-shopu na WooCommerce: vybrané moduly a spustitelné demo ve WordPress Playground.",
+  "license": "UNLICENSED",
+  "author": "Jaroslav Velek",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node scripts/demo.mjs",
+    "test:php": "node scripts/php-testy.mjs",
+    "test:integrace": "node scripts/integrace.mjs"
+  }
+}

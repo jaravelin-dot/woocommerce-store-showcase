@@ -1,0 +1,120 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Ukázkový obchod na WooCommerce",
+		"description": "E-shop s pracovními oděvy a obuví: vymyšlený katalog, AI poradce v simulaci, SEO, feedy, cookie lišta.",
+		"author": "Jaroslav Velek",
+		"categories": [
+			"WooCommerce",
+			"Demo"
+		]
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "defineWpConfigConsts",
+			"consts": {
+				"DISABLE_WP_CRON": true,
+				"WP_ENVIRONMENT_TYPE": "staging"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/0-ukazka-playground.php",
+			"data": "<?php\n// Jen pro ukázku ve WordPress Playground (ostrý web tohle nepotřebuje):\n// Playground nemá systémový cron, WP-Cron je vypnutý v wp-config a stejně tak\n// asynchronní běh Action Scheduleru.\nadd_filter('action_scheduler_allow_async_request_runner', '__return_false');\n// Bez rezervace skladu při placení: v Playgroundu (SQLite) pokladna jinak\n// hlásila nedostatek kusů i u zboží skladem.\nadd_filter('woocommerce_hold_stock_for_checkout', '__return_false');\nadd_filter('woocommerce_admin_features', static fn(array $f): array => array_values(array_diff($f, ['remote-inbox-notifications', 'marketplace', 'payment-gateway-suggestions', 'shipping-label-banner'])));\n"
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "woocommerce"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "wordpress.org/themes",
+				"slug": "twentytwentyfive"
+			},
+			"options": {
+				"activate": false
+			}
+		},
+		{
+			"step": "writeFiles",
+			"writeToPath": "/wordpress/wp-content/mu-plugins",
+			"filesTree": {
+				"resource": "git:directory",
+				"url": "https://github.com/jaravelin-dot/woocommerce-store-showcase",
+				"ref": "main",
+				"refType": "branch",
+				"path": "wp-content/mu-plugins"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/jaravelin-dot/woocommerce-store-showcase",
+				"ref": "main",
+				"refType": "branch",
+				"path": "wp-content/plugins/shop-showcase"
+			},
+			"options": {
+				"activate": true,
+				"targetFolderName": "shop-showcase"
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "git:directory",
+				"url": "https://github.com/jaravelin-dot/woocommerce-store-showcase",
+				"ref": "main",
+				"refType": "branch",
+				"path": "wp-content/themes/shop-demo"
+			},
+			"options": {
+				"activate": true,
+				"targetFolderName": "shop-demo"
+			}
+		},
+		{
+			"step": "writeFiles",
+			"writeToPath": "/wordpress/wp-content/shop-demo-data",
+			"filesTree": {
+				"resource": "git:directory",
+				"url": "https://github.com/jaravelin-dot/woocommerce-store-showcase",
+				"ref": "main",
+				"refType": "branch",
+				"path": "demo"
+			}
+		},
+		{
+			"step": "setSiteLanguage",
+			"language": "cs_CZ"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php';\n// Jazykové balíčky pluginů (WooCommerce) jinak doinstaluje až WP-Cron, který je v ukázce vypnutý.\nrequire_once ABSPATH . 'wp-admin/includes/admin.php';\nrequire_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';\nwp_update_plugins();\nwp_update_themes();\n$prekl = wp_get_translation_updates();\nif ($prekl) { (new Language_Pack_Upgrader(new Automatic_Upgrader_Skin()))->bulk_upgrade($prekl); }"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php'; require '/wordpress/wp-content/shop-demo-data/zaloz-katalog.php';"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php'; foreach (Shop_Feedy::FORMATY as $format) { Shop_Feedy::generuj($format); }"
+		}
+	]
+}

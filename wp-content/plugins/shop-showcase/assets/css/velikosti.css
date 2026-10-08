@@ -1,0 +1,35 @@
+/* Velikosti jako tlačítka (detail produktu). */
+.shop-velikosti { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 8px; }
+.shop-velikosti__volba {
+	min-width: 52px;
+	padding: 10px 12px;
+	font: inherit;
+	font-weight: 600;
+	border: 1px solid var(--wp--preset--color--linka, #dcdfe3);
+	border-bottom: 3px solid #15803d;
+	border-radius: 6px;
+	background: #fff;
+	color: var(--wp--preset--color--contrast, #1b1f23);
+	cursor: pointer;
+}
+.shop-velikosti__volba--u-vyrobce { border-bottom-color: #a16207; }
+.shop-velikosti__volba--vyprodano { border-bottom-color: #d1d5db; color: #9ca3af; text-decoration: line-through; cursor: not-allowed; }
+.shop-velikosti__volba[aria-checked="true"] { background: var(--wp--preset--color--contrast, #1b1f23); color: #fff; border-color: var(--wp--preset--color--contrast, #1b1f23); }
+.shop-velikosti__legenda { display: flex; gap: 14px; margin: 0 0 6px; font-size: .8rem; color: var(--wp--preset--color--sediva, #4b5563); }
+.shop-velikosti__legenda span::before { content: ""; display: inline-block; width: 14px; height: 3px; margin: 0 5px 3px 0; vertical-align: middle; background: #15803d; }
+.shop-velikosti__legenda .u-vyrobce::before { background: #a16207; }
+.shop-velikosti__legenda .vyprodano::before { background: #d1d5db; }
+/* Původní <select> zůstává pro WooCommerce a čtečky, jen vizuálně skrytý. */
+.variations td.value { position: relative; }
+.shop-velikosti__puvodni {
+	position: absolute !important;
+	left: 0;
+	top: 0;
+	width: 1px !important;
+	min-width: 0 !important;
+	height: 1px !important;
+	padding: 0 !important;
+	border: 0 !important;
+	overflow: hidden;
+	clip-path: inset(50%);
+}

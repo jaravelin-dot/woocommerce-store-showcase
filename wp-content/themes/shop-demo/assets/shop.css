@@ -1,0 +1,60 @@
+/* Drobné úpravy vzhledu ukázkové šablony. */
+
+.shop-hlavicka .wp-block-site-title a { text-decoration: none; }
+.shop-hledani .wp-block-search__input { min-width: 220px; }
+.shop-hledani .wp-block-search__button { padding: .55em .85em; margin-left: 6px; }
+.shop-hledani .wp-block-search__inside-wrapper { flex-wrap: nowrap; }
+
+.shop-hero__nadpis { font-size: clamp(1.75rem, 4vw, 2.6rem); max-width: 26ch; margin-left: 0 !important; margin-bottom: 20px; }
+
+.shop-dlazdice { gap: 14px; margin-top: 28px; }
+.shop-dlazdice__polozka { margin: 0; }
+.shop-dlazdice__polozka a {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 18px 20px;
+	border: 1px solid var(--wp--preset--color--linka);
+	border-left: 4px solid var(--wp--preset--color--akcent);
+	border-radius: 6px;
+	text-decoration: none;
+	background: var(--wp--preset--color--podklad);
+}
+.shop-dlazdice__polozka a:hover { border-color: var(--wp--preset--color--contrast); }
+.shop-dlazdice__polozka span { font-size: .9rem; color: var(--wp--preset--color--sediva); }
+
+/* Výpis: panel filtrů vlevo. */
+.shop-vypis { gap: 32px; }
+.shop-filtry__skupina { margin-bottom: 22px; }
+.shop-filtry__nadpis { font-size: .85rem; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .05em; }
+.shop-filtry__volby { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.shop-filtry__volba {
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+	padding: 5px 10px;
+	border: 1px solid var(--wp--preset--color--linka);
+	border-radius: 4px;
+	font-size: .875rem;
+	text-decoration: none;
+}
+.shop-filtry__volba:hover { border-color: var(--wp--preset--color--contrast); }
+.shop-filtry__volba.je-aktivni { background: var(--wp--preset--color--contrast); border-color: var(--wp--preset--color--contrast); color: #fff; }
+.shop-filtry__pocet { font-size: .75rem; opacity: .7; }
+
+.wp-block-woocommerce-product-template .wp-block-woocommerce-product-image img { background: var(--wp--preset--color--podklad); border-radius: 6px; }
+
+/* Výdejní místo v pokladně. */
+.shop-vydejni-misto { display: grid; gap: 4px; margin: 8px 0 4px; }
+.shop-vydejni-misto select { max-width: 100%; padding: 6px; }
+.shop-vydejni-misto small { color: var(--wp--preset--color--sediva); }
+
+@media (max-width: 781px) {
+	.shop-vypis__panel { flex-basis: 100% !important; }
+	/* Hledání, účet a košík na jeden řádek přes celou šířku, bez přetečení. */
+	.shop-hlavicka .wp-block-group.is-nowrap { width: 100%; }
+	.shop-hledani { flex: 1 1 auto; min-width: 0; }
+	.shop-hledani .wp-block-search__input { min-width: 0; width: 100%; }
+}
